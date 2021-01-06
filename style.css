@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@import "menu-item.css";
+
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+#banner {
+	background-color: #ffcfe7;
+}
+
+.form-head{
+	font-weight: bold;800
+	color: #000000;
+
+}
+
+.row{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+form {
+	padding: 0.5rem;
+
+}
+#form-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+#footer-row{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+
+}
+li{
+	padding-left: 0.25rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+#cards-row{
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.card-title{
+	text-align: center;
+}
+.card{
+margin-bottom: 1rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.pic{
+	width: 100%;
+	height: auto;
+
+}
+
+#btn-container {
+	flex-direction: column;
+	position: absolute;
+	top: 13%;
+	z-index: 10;
+}
+
+.promo-btn{
+ margin-top: 10px;
+}
+#btn-col{
+	position: static;
+}
+@media(min-width: 992px){
+	#btn-container{
+		position: relative;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		top: 0;
+		bottom: 80%;
+	}
+}
+
+.banner_img {
+	width: 300px;
+	height: 190px;
+}
+
+.nav-link {
+	color: #b50091;
+}
+
+#myTab .nav-link.active {
+	background-color: #fff0fc !important;
+	color: #b50091 !important;
+}
+
+.navbar-nav a.active {
+ background-color: #ffb8f1 !important;
+}
+
+#accordionExample .card-header{
+	 background-color: #FFE4FC !important;
+}
+
+h2{
+	text-align: center;
+
+}
+
+.text-color{
+	color: #b50091
+}
+
+
+
+
+
+
+
